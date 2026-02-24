@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Models
+*.pkl
+*.h5
+*.joblib
+
+# Data
+*.csv
+*.xlsx
+*.xls
+
+# Environment
+.env
+*.env
+
+# Logs
+*.log
