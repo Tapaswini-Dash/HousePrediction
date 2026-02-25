@@ -11,12 +11,15 @@ app = FastAPI(title="House Price Predictor")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://house-price-frontend-eta.vercel.ap", "http://127.0.0.1:5173 , "http://localhost:5173""],
+    allow_origins=[
+        "https://house-price-frontend-eta.vercel.app", 
+        "http://127.0.0.1:5173", 
+        "http://localhost:5173"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 
 # Define input format (matches California housing features)
