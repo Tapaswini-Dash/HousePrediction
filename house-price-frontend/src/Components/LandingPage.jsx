@@ -26,7 +26,7 @@ function LandingPage() {
     setPrediction(null)
 
     try {
-      const response = await fetch('https://houseprediction-2-836p.onrender.com', {
+      const response = await fetch('https://houseprediction-5-hqsz.onrender.com/predict', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
